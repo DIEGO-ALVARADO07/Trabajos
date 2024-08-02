@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forma row col-10">
+            <div class="formulario col-7">
+                    <div class="col-md-12">
+                      <label for="numero1" class="form-label">Numero 1</label>
+                      <input type="number" class="form-control" id="numero1" required>
+                    </div>
+
+                    <div class="col-md-12">
+                      <label for="numero2" class="form-label">Numero 2</label>
+                      <input type="number" class="form-control" id="numero2" required>
+                    </div>
+
+                    <div class="col-md-12">
+                      <label for="numero2" class="form-label">Numero 3</label>
+                      <input type="number" class="form-control" id="numero3" required>
+                    </div>
+
+
+                    <div class="col-12">
+                      <button class="btn btn-primary espacio" type="button" onclick="numeroMayor();"> Mostrar <i class="fa-solid fa-calculator"></i></button>
+                    </div>
+                  </form>
+            </div>
+            <div class="respuesta col-3">
+                <h4>Respuesta</h4>
+                <div id="NUMEROmayor"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/validate.js"></script>
+    <script src="js/numeroMayor.js"></script>
+</body>
+</html>

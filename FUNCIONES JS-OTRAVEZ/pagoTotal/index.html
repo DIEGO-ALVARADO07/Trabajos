@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/pagoTotal.js"></script>
+    <title>Pago de una persona</title>
+</head>
+<body>
+    <script>
+
+        let pago1= "Salario = "+salario(50000,30)+"\n"+"\n"+"Salud = "+ salud(50000,30)+"\n"+ "\n"+"ARL = "+arl(50000,30)+"\n"+"\n"+"Pension = "+pension(50000,30)+"\n"+"\n"+"Auxilio de Transporte = "+subTrans(50000,30)+"\n"+"\n"+"Retencion = "+retencion(50000,30)+"\n"+"\n"+"Descuento = "+descuento(50000,30)+"\n"+"\n"+"Pago Total = "+pagoTotal(50000,30);
+        let pagoPersona =pagoTotal(50000,30);
+        console.log (pago1);
+        console.log ("Pago Persona: "+pagoPersona);
+        
+    </script>
+</body>
+</html>

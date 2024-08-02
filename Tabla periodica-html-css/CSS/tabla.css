@@ -1,0 +1,383 @@
+body{
+    background-color: rgb(82, 82, 188);
+}
+
+
+
+#principal{
+    float: left;
+    height: 1800px;
+    width: 2192px;
+    margin-top: -8px;
+    margin-left: -8px;
+    text-align: center;
+
+}
+
+.horizontal{
+    float: left;
+    width: 2192px;
+}
+
+/* Letras Oscuras */
+
+.letras-oscuras{
+
+    h1{
+        font-size: 36px;
+        margin: 0;
+        color: #2b0638;
+        -webkit-text-stroke: 1px rgb(255, 255, 255); 
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    
+    
+    h2{
+        text-align: right;
+        font-size: 14px;
+        color: #fff;
+     }
+    
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #fff;
+    }
+}
+
+
+/* letras blancas */
+
+.letras-Blancas{
+    h1{
+        font-size: 36px;
+        margin: 0;
+        color: #e0dae3;
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    
+    
+    h2{
+        text-align: right;
+        font-size: 14px;
+        color: #fff;
+     }
+    
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #fff;
+    }
+
+}
+/* Letras blancas con borde negro */
+
+.letras-Blancas-BordeN{
+    h1{
+    font-size: 36px;
+    margin: 0;
+    color: #ffffff;
+    -webkit-text-stroke: 2px rgb(0, 0, 0); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+    h2{
+        text-align: right;
+        font-size: 14px;
+        color: #fff;
+     }
+    
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #fff;
+    }
+}
+
+
+/* LETRAS AZUL BORDE BLANCO*/
+
+.letras-azulBorde-Blanco{
+
+    h1{
+        font-size: 36px;
+        margin: 0;
+        color: #08a7d8;
+        -webkit-text-stroke: 1px rgb(255, 255, 255); 
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    
+    
+    h2{
+        text-align: right;
+        font-size: 14px;
+        color: #fff;
+     }
+    
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #fff;
+    }
+}
+
+/* LETRAS ROJAS CON BORDE BLANCO */
+
+.letras-rojoBorde-Blanco{
+
+    h1{
+        font-size: 36px;
+        margin: 0;
+        color: #c9230d;
+        -webkit-text-stroke: 1px rgb(255, 255, 255); 
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    
+    
+    h2{
+        text-align: right;
+        font-size: 14px;
+        color: #fff;
+     }
+    
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #fff;
+    }
+}
+
+
+/* LETRAS NEGRAS */
+
+.letras-Negras{
+    h1{
+    font-size: 36px;
+    margin: 0;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+    h2{
+        text-align: right;
+        font-size: 14px;
+        color: #000000;
+     }
+    
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #000000;
+    }
+}
+
+
+/* LETRAS NEGRAS CON ESPACIO */
+
+.letras-Negras-espacio{
+    h1{
+    font-size: 36px;
+    margin: 0;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+    h2{
+        word-spacing: 44px;
+        text-align: right;
+        font-size: 18px;
+        color: #000000;
+     }
+    
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #000000;
+    }
+}
+
+
+/* Ultimas letras con exponencial negro */
+
+
+.letras-Blancas-Borde-Negro{
+    h1{
+    font-size: 36px;
+    margin: 0;
+    color: #ffffff;
+    -webkit-text-stroke: 2px rgb(0, 0, 0); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+    h2{
+        text-align: right;
+        font-size: 14px;
+        color: #000000;
+     }
+    
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #fff;
+    }
+}
+
+
+/*cuador no visible */
+.celdas-nover{
+    float: left;
+    height: 120px;
+    width: 1568px;
+    display: block;
+}
+
+/* CELDAS NO METALES */
+.celdas-moradas{
+    float: left;
+    display: block;
+    width: 96.4px;
+    height: 120px;
+    border-radius: 8%;
+    border: solid 1px #000;
+    background-color:rgb(102, 29, 124);
+}
+
+
+/* CELDAS METALES ALCALINOS */
+
+.celdas-naranjamarillas{
+    border-radius: 8%;
+    float: left;
+    display: block;
+    width: 96.4px;
+    height: 120px;
+    border: solid 1px #000;
+    background-color:rgb(200, 142, 67);
+}
+
+/* CELDAS ALCALINOTÉRREOS */
+
+.celdas-naranjas{
+    border-radius: 8%;
+    float: left;
+    display: block;
+    width: 96.4px;
+    height: 120px;
+    border: solid 1px #000;
+    background-color:rgb(168, 95, 0);
+}
+
+/* CELDAS GASES NOBLES */
+
+.celdas-azules{
+    border-radius: 8%;
+    float: left;
+    display: block;
+    width: 96.4px;
+    height: 120px;
+    border: solid 1px #000;
+    background-color:rgb(8, 122, 197);
+}
+
+/*  CELDAS HALÓGENOS*/
+
+.celdas-verdeClaro{
+    border-radius: 8%;
+    float: left;
+    display: block;
+    width: 96.4px;
+    height: 120px;
+    border: solid 1px #000;
+    background-color:rgb(138, 209, 76);
+}
+
+/* CUADRO NO VISIBLE MAS PEQUEÑO */
+
+.celdas-noverPeque{
+    float: left;
+    height: 120px;
+    width: 980px;
+    display: block;
+}
+
+
+/* METALOIDES */
+
+.celdas-verdeMoco{
+    border-radius: 8%;
+    float: left;
+    display: block;
+    width: 96.4px;
+    height: 120px;
+    border: solid 1px #000;
+    background-color:rgb(10, 164, 97);
+}
+
+/* OTROS METALES */
+
+.celdas-moradasN{
+    border-radius: 8%;
+    float: left;
+    display: block;
+    width:96.4px;
+    height: 120px;
+    border: solid 1px #000;
+    background-color:rgb(59, 18, 97);
+}
+
+/* METALES DE TRANSICIÓN */
+
+.celdas-rosadas{
+    border-radius: 8%;
+    float: left;
+    display: block;
+    width:96.4px;
+    height: 120px;
+    border: solid 1px #000;
+    background-color:rgb(233, 47, 171);
+}
+
+/* LANTÁNICOS */
+
+.celdas-verdeOscuro{
+    border-radius: 8%;
+    float: left;
+    display: block;
+    width:96.4px;
+    height: 120px;
+    border: solid 1px #000;
+    background-color:rgb(58, 173, 19);
+}
+
+
+/* ACTÍNIDOS */
+
+.celdas-verdeAmarillo{
+    border-radius: 8%;
+    float: left;
+    display: block;
+    width: 96.4px;
+    height: 120px;
+    border: solid 1px #000;
+    background-color:rgb(182, 204, 41);
+}
+
+
+
+/* SEPARADOR DE ESPACIOS */
+
+.celdas-espacio{
+    float: left;
+    height: 62px;
+    display: block;
+    width: 1600px;
+}
+
+
+/* MOVER LAS COLUMNAS HORIZONTAL */
+
+.horizontal-MoverIZQ{
+    float: left;
+    width: 2192px;
+    margin-left: 280px;
+}

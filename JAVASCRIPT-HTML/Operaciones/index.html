@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludos soy diego alejandro alvarado trujillo</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forma row col-10">
+            <div class="formulario col-7">
+                <form class="row g-3 needs-validation" novalidate >
+                    <div class="col-md-12">
+                      <label for="txtNumero1" class="form-label">Ingrese su primer numero</label>
+                      <input type="number" class="form-control" id="txtNumero1" required>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="txtNumero2" class="form-label">Ingrese su segundo numero</label>
+                        <input type="number" class="form-control" id="txtNumero2" required>
+                      </div>
+  
+
+                    <div class="boton col-12">
+                      <button class="btn btn-primary" type="button" onclick="sumar();">Sumar <i class="fa-solid fa-calculator"></i></button>
+                      <button class="btn btn-primary" type="button" onclick="restar();">Restar <i class="fa-solid fa-calculator"></i></button>
+                      <button class="btn btn-primary" type="button" onclick="multiplicar();">multiplicar <i class="fa-solid fa-calculator"></i></button>
+                      <button class="btn btn-primary" type="button" onclick="division();">Dividir <i class="fa-solid fa-calculator"></i></button>
+                      <button class="btn btn-primary" type="button" onclick="promedios();">Promediar <i class="fa-solid fa-calculator"></i></button>
+                    </div>
+                  </form>
+            </div>
+            <div class="respuesta col-3">
+                <h4>Respuesta</h4>
+                <div id="sumars"></div>
+                <div id="restars"></div>
+                <div id="multiplicacion"></div>
+                <div id="division"></div>
+                <div id="promedio"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/validate.js"></script>
+    <script src="js/operaciones.js"></script>
+</body>
+</html>

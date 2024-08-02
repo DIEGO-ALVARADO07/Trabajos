@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diego alejandro alvarado castaño</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="container">
+    <div class="forma row col-10">
+        <div class="formulario col-7">
+            <form class="row g-3 needs-validation" novalidate >
+
+                  <div class="col-md-12">
+                    <label for="fechaAñoAc" class="form-label">Ingrese el año hasta donde quiere contar</label>
+                    <input type="date" class="form-control" id="fechaAñoAc" required>
+                  </div>
+              
+                   <div class="col-md-12">
+                    <label for="fechaAñoNc" class="form-label">Ingrese el año de nacimiento de la primer persona</label>
+                    <input type="date" class="form-control" id="fechaAñoNc" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="fechaAñoNc2" class="form-label">Ingrese el año de nacimiento de la segunda persona</label>
+                    <input type="date" class="form-control" id="fechaAñoNc2" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="fechaAñoNc3" class="form-label">Ingrese el año de nacimiento de la tercer persona</label>
+                    <input type="date" class="form-control" id="fechaAñoNc3" required>
+                  </div>
+
+                <div class="boton col-12">
+                  <button class="btn btn-primary" type="button" onclick="primerPersona(),Edad1();"> Edad de la primer persona <i class="fa-solid fa-calculator"></i></button>
+                  <button class="btn btn-primary" type="button" onclick="segundaPersona(),Edad2();"> Edad de la segunda persona <i class="fa-solid fa-calculator"></i></button>
+                  <button class="btn btn-primary" type="button" onclick="terceraPersona(),Edad3();"> Edad de la tercer persona <i class="fa-solid fa-calculator"></i></button>
+                  <button class="btn btn-primary espacio" type="button" onclick="operacion();">Promediar <i class="fa-solid fa-calculator"></i></button>
+                </div>
+              </form>
+        </div>
+            <div class="respuesta col-3">
+                <h4>Respuesta</h4>
+                <div id="edadP1 espacio"></div>
+                <div id="edadP2 espacio"></div>
+                <div id="edadP3 espacio"></div>
+                <div id="promediou espacio"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/validate.js"></script>
+    <script src="js/edadPromedio.js"></script>
+  </body>
+</html>

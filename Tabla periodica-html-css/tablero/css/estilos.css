@@ -1,0 +1,74 @@
+/*
+Tablero CSS
+Autor: AndresMC
+17 de mayo de 2024
+*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+h1{
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+}
+
+ h2{
+    text-align: right;
+    font-size: 14px;
+ }
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#tablero{
+    float: left;
+    display: block;
+    width: 600px;
+    text-align: center;
+}
+
+.celda-188{
+    float: left;
+    display: block;
+    width: 154px;
+    height: 94px;
+    margin: 0 2px 2px 0;
+    border: solid 1px #000;
+    padding: 20px;
+}
+
+
+.celda-404{
+    float: left;
+    display: block;
+    width: 392px;
+    height: 134px;
+    margin: 0 2px 2px 0;
+    border: solid 1px #000;
+}
+
+.celda-596{
+    float: left;
+    display: block;
+    width: 590px;
+    height: 134px;
+    margin: 0 2px 2px 0;
+    border: solid 1px #000;
+}
+
+.fondo-azul{
+    background-color: #070255;
+}
+.fondo-lila{
+    background-color: #a31059;
+}
+.fondo-verde{
+    background-color: #205502;
+}
+.fondo-rojo{
+    background-color: #9b0909;
+}
+
+
